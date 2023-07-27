@@ -49,7 +49,7 @@
     padding-top: 0!important;
   }
     }
-  .download-btn9{
+  .download-btn(2){
     width: 100%;
     height: 50px;
     background-color: #EA0000;
@@ -87,7 +87,7 @@
   <div class="download-btn">
     通道二：点此进入下载登录观看
       </div>
-     <div class="download-btn">
+     <div class="download-btn(2)">
     扫码后按下方视频操作
   </div>
    <div class="download-btn">
@@ -177,7 +177,7 @@
     });
   }
 
-  const downloadBtn = document.querySelector('.download-btn2')
+  const downloadBtn = document.querySelector('.download-btn(2)')
   if (downloadBtn) {
     downloadBtn.addEventListener('click', function () {
       window.location = 'https://axapk.gxwenzhong.com:2443/apkd/channel=huicheng_1'
